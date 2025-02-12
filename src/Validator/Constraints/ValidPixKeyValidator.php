@@ -1,13 +1,13 @@
 <?php
 
-namespace Phillarmonic\PIXicato\Validator\Constraints;
+namespace TLFE\PIXicato\Validator\Constraints;
 
 use Symfony\Component\Validator\Constraint;
 use Symfony\Component\Validator\ConstraintValidator;
 use Symfony\Component\Validator\Exception\UnexpectedTypeException;
 use Symfony\Component\Validator\Exception\UnexpectedValueException;
-use Phillarmonic\PIXicato\PixKey;
-use Phillarmonic\PIXicato\PixType;
+use TLFE\PIXicato\PixKey;
+use TLFE\PIXicato\PixType;
 
 class ValidPixKeyValidator extends ConstraintValidator
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Phillarmonic\PIXicato\Tests;
+namespace TLFE\PIXicato\Tests;
 
 use PHPUnit\Framework\TestCase;
-use Phillarmonic\PIXicato\PixType;
+use TLFE\PIXicato\PixType;
 
 class PixTypeTest extends TestCase
 {

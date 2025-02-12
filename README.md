@@ -7,7 +7,7 @@ Pluck the right key every time :)
 ## Installation
 
 ```bash
-composer require phillarmonic/pixicato-bundle
+composer require tlf-e/pixicato-bundle
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ composer require phillarmonic/pixicato-bundle
 ### Validating a PIX key
 
 ```php
-use Phillarmonic\PIXicato\PixKey;
+use TLFE\PIXicato\PixKey;
 
 $pixKey = new PixKey('example@email.com');
 if ($pixKey->isValid()) {
@@ -31,7 +31,7 @@ echo (new PixKey('example@example.com'))->isValid() ? 'Valid' : 'Invalid';
 ### Using the Symfony validator
 
 ```php
-use Phillarmonic\PIXicato\Validator\Constraints as PIXAssert;
+use TLFE\PIXicato\Validator\Constraints as PIXAssert;
 
 class User
 {

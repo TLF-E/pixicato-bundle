@@ -1,11 +1,11 @@
 <?php
 
-namespace Phillarmonic\PIXicato\Tests\Validator\Constraints;
+namespace TLFE\PIXicato\Tests\Validator\Constraints;
 
 use PHPUnit\Framework\TestCase;
 use PHPUnit\Framework\Attributes\DataProvider;
-use Phillarmonic\PIXicato\Validator\Constraints\ValidPixKey;
-use Phillarmonic\PIXicato\Validator\Constraints\ValidPixKeyValidator;
+use TLFE\PIXicato\Validator\Constraints\ValidPixKey;
+use TLFE\PIXicato\Validator\Constraints\ValidPixKeyValidator;
 use Symfony\Component\Validator\Context\ExecutionContextInterface;
 use Symfony\Component\Validator\Violation\ConstraintViolationBuilderInterface;
 

@@ -1,10 +1,10 @@
 <?php
 
-namespace Phillarmonic\PIXicato\Validator\Constraints;
+namespace TLFE\PIXicato\Validator\Constraints;
 
 use Symfony\Component\Validator\Constraint;
 use Symfony\Component\Validator\Exception\InvalidOptionsException;
-use Phillarmonic\PIXicato\PixType;
+use TLFE\PIXicato\PixType;
 
 #[\Attribute(\Attribute::TARGET_PROPERTY | \Attribute::TARGET_METHOD | \Attribute::IS_REPEATABLE)]
 class ValidPixKey extends Constraint

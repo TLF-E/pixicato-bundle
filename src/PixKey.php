@@ -1,9 +1,9 @@
 <?php
 
-namespace Phillarmonic\PIXicato;
+namespace TLFE\PIXicato;
 
-use Phillarmonic\CpfCnpj\CPF;
-use Phillarmonic\CpfCnpj\CNPJ;
+use TLFE\CpfCnpj\CPF;
+use TLFE\CpfCnpj\CNPJ;
 use libphonenumber\PhoneNumberUtil;
 use libphonenumber\PhoneNumberFormat;
 use Symfony\Component\Validator\Constraints as Assert;
