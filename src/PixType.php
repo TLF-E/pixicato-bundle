@@ -1,6 +1,6 @@
 <?php
 
-namespace Phillarmonic\PIXicato;
+namespace TLFE\PIXicato;
 
 enum PixType: string
 {

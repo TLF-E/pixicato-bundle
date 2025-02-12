@@ -1,11 +1,11 @@
 <?php
 
-namespace Phillarmonic\PIXicato;
+namespace TLFE\PIXicato;
 
-use Phillarmonic\PIXicato\DependencyInjection\CompilerPass\TranslationCompilerPass;
+use TLFE\PIXicato\DependencyInjection\CompilerPass\TranslationCompilerPass;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
-use Phillarmonic\PIXicato\DependencyInjection\PIXicatoExtension;
+use TLFE\PIXicato\DependencyInjection\PIXicatoExtension;
 
 class PIXicatoBundle extends Bundle
 {

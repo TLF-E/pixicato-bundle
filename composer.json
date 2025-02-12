@@ -1,24 +1,27 @@
 {
-  "name": "phillarmonic/pixicato-bundle",
+  "name": "tlf-e/pixicato-bundle",
   "description": "A Symfony bundle for validating Brazilian PIX keys.",
   "type": "symfony-bundle",
   "keywords": ["symfony", "pix", "brazil", "cpf", "cnpj","phone","email","validation"],
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
+  "repositories": [
+    {"type": "git", "url": "git@github.com:TLF-E/cpf-cnpj.git"}  
+],
   "autoload": {
     "psr-4": {
-      "Phillarmonic\\PIXicato\\": "src/"
+      "TLFE\\PIXicato\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Phillarmonic\\PIXicato\\Tests\\": "tests/"
+      "TLFE\\PIXicato\\Tests\\": "tests/"
     }
   },
   "authors": [
     {
-      "name": "Phillarmonic Software",
-      "email": "phillarmonicsoftware@outlook.com"
+         "name":"TLFE",
+         "email":"constantinos.sergiou@tlf.com"
     }
   ],
   "require": {
@@ -26,7 +29,7 @@
     "symfony/framework-bundle": "^6.0|^7.0",
     "symfony/validator": "^6.0|^7.0",
     "giggsey/libphonenumber-for-php": "^8.0",
-    "phillarmonic/cpf-cnpj": "^1.0"
+    "tlf-e/cpf-cnpj": "dev-master"
   },
   "require-dev": {
     "phpunit/phpunit": "^10.0|^11.0",

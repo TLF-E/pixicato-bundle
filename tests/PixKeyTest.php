@@ -1,11 +1,11 @@
 <?php
 
-namespace Phillarmonic\PIXicato\Tests;
+namespace TLFE\PIXicato\Tests;
 
 use PHPUnit\Framework\TestCase;
 use PHPUnit\Framework\Attributes\DataProvider;
-use Phillarmonic\PIXicato\PixKey;
-use Phillarmonic\PIXicato\PixType;
+use TLFE\PIXicato\PixKey;
+use TLFE\PIXicato\PixType;
 
 class PixKeyTest extends TestCase
 {

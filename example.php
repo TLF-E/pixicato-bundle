@@ -3,8 +3,8 @@
 // Assuming this file is in the root of your project
 require_once __DIR__ . '/vendor/autoload.php';
 
-use Phillarmonic\PIXicato\PixKey;
-use Phillarmonic\PIXicato\PixType;
+use TLFE\PIXicato\PixKey;
+use TLFE\PIXicato\PixType;
 
 function runTest($value, $expectedType, $shouldBeValid) {
     $pixKey = new PixKey($value, $expectedType);

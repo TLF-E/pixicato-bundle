@@ -1,6 +1,6 @@
 <?php
 
-namespace Phillarmonic\PIXicato\DependencyInjection;
+namespace TLFE\PIXicato\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;

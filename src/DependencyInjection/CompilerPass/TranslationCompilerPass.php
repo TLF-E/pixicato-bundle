@@ -1,6 +1,6 @@
 <?php
 
-namespace Phillarmonic\PIXicato\DependencyInjection\CompilerPass;
+namespace TLFE\PIXicato\DependencyInjection\CompilerPass;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
