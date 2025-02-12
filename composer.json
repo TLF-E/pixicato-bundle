@@ -29,7 +29,7 @@
     "symfony/framework-bundle": "^6.0|^7.0",
     "symfony/validator": "^6.0|^7.0",
     "giggsey/libphonenumber-for-php": "^8.0",
-    "tlf-e/cpf-cnpj": "dev-master"
+    "tlf-e/cpf-cnpj": "1.0.2"
   },
   "require-dev": {
     "phpunit/phpunit": "^10.0|^11.0",

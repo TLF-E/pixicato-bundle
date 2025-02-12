@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9378a7209d3c5147a7ea297ebf3a5a7f",
+    "content-hash": "b12887babe94be2208934c460aa86972",
     "packages": [
         {
             "name": "giggsey/libphonenumber-for-php",
@@ -2175,16 +2175,15 @@
         },
         {
             "name": "tlf-e/cpf-cnpj",
-            "version": "dev-master",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:TLF-E/cpf-cnpj.git",
-                "reference": "c92ae3eb768b6dda7c47f30a3d360b00fb2d41e9"
+                "reference": "3329ebdda35ecd04f59c454129773759fef008e7"
             },
             "require-dev": {
                 "phpunit/phpunit": "^10.0|^11.0"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -2212,7 +2211,7 @@
                 "formatting",
                 "validation"
             ],
-            "time": "2025-02-12T13:07:56+00:00"
+            "time": "2025-02-12T13:24:09+00:00"
         }
     ],
     "packages-dev": [
@@ -4073,9 +4072,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "tlf-e/cpf-cnpj": 20
-    },
+    "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
