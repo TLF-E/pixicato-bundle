@@ -3,8 +3,10 @@
   "description": "A Symfony bundle for validating Brazilian PIX keys.",
   "type": "symfony-bundle",
   "keywords": ["symfony", "pix", "brazil", "cpf", "cnpj","phone","email","validation"],
-  "version": "1.0.4",
+  "version": "1.0.5",
   "license": "MIT",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
   "repositories": [
     {"type": "git", "url": "git@github.com:TLF-E/cpf-cnpj.git"}  
 ],
